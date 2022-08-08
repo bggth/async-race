@@ -1,3 +1,6 @@
+const App = require('./app');   
+
 window.onload = () => {
-    console.log('async-race');
+    let app = new App();
+    app.render();
 }

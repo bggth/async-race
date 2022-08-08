@@ -1,0 +1,36 @@
+body {
+    background-color: #291F1E;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FBB13C;
+}
+
+.header__logo {
+    font-size: 48px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.garage__view, .winners__view {
+    background-color: #477998;
+    width: 50%;
+    height: 100px;
+}
