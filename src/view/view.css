@@ -1,3 +1,8 @@
+.message{
+    background: red;
+    font-size: 40px;
+}
+
 body {
     background-color: #291F1E;
     font-family: 'Kanit', sans-serif;
@@ -30,7 +35,93 @@ body {
 }
 
 .garage__view, .winners__view {
-    background-color: #477998;
     width: 50%;
     height: 100px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #FBB13C;
+    width: 100px;
+}
+
+.button-small {
+    width: auto;
+}
+
+.button:hover {
+    background-color: #477998;
+}
+
+.button:active {
+    background-color: #E6E8E6;
+}
+
+.garage__view {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.garage__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.garage__formline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.garage__title {
+    font-size: 32px;
+    color: #FBB13C;
+}
+
+.garage__page {
+    font-size: 24px;
+    color: #FBB13C;
+
+}
+
+.garage__carlist {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.garage__carview {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.garage__carline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.car_img {
+    width: 100px;
+}
+
+.garage__cartitle{
+    color: #FBB13C;
+    font-size: 30px;
+}
+
+.garage__line {
+    width: 100%;
+    border: none;;
+    border-top: 2px dashed #FBB13C;
+    height: 0;
+    color: #291F1E;
 }

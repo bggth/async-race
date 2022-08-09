@@ -15,6 +15,7 @@ class View {
         innerHTML += this.winnersView.render();
         console.log(innerHTML)
         return `
+        <div class="message">🐱🐱🐱 ПОЖАЛУЙСТА, ПРОВЕРЬТЕ МЕНЯ ПОЗЖЕ ЗАРАНЕЕ СПАСИБО 🐱🐱🐱</div>
         <header class="header">
         <div class="header__logo">Async-Race</div>
         <div class="header__menu">
@@ -23,6 +24,10 @@ class View {
         </div>
         </header>
         <div class="main">${innerHTML}</div>`;
+    }
+
+    update() {
+        this.garageView.update();
     }
 }
 
